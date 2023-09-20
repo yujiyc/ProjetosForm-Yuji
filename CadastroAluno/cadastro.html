@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Aluno</title>
+    <link rel="stylesheet" type="text/css" href="../CadastroAluno/cadastro.css" media="">
+</head>
+<body>
+    <form class="form" method="POST">
+        <fieldset>
+            <legend>Cadastro de Aluno</legend>
+        
+            <div class="input">
+                <input placeholder="Nome" required/>
+            </div>
+
+            <div class="input">
+                <input placeholder="Sobrenome" required/>
+            </div>
+
+            <div class="input">
+                <input type="date" class="form-control" min="2000-01-01" max="2017-12-31"/>
+            </div>
+
+            <div class="input">
+                <input placeholder="Endereço"/>
+            </div>
+
+            <div class="input">
+                <input placeholder="Nome da mãe"/>
+            </div>
+
+            <div class="input">
+                <input placeholder="Nome do pai"/>
+            </div>
+
+            <div class="input">
+                <input type="email" placeholder="seu@email.com"/>
+            </div>
+
+            <div class="input">
+                <input placeholder="Tel."/>
+            </div>
+
+            <div class="input">
+                <input type="number" class="form-control" min="1" max="9" placeholder="Série"/>
+            </div>
+
+            <div class="input-radio">
+                <label class="title">Sexo</label>
+                <br>
+                <input type="radio" name="nmGenero" id="idMasc">
+                <label for="idFmasc">Masculino</label>
+                <br>
+                <input type="radio" name="nmGenero" id="idFem" checked>
+                <label for="idFem">Feminino</label>
+            </div>
+
+            <div class="input-radio">
+                <label class="title">Necessidades Especiais</label>
+                <br>
+                <input type="checkbox" name="nmMarcas" id="idFordKa">
+                <label for="idFordKa">Deficiência Auditiva</label>
+                <br>
+                <input type="checkbox" name="nmMarcas" id="idGol">
+                <label for="idGol">Deticiência Motora</label>   
+                <br>
+                <input type="checkbox" name="nmMarcas" id="idFerrari">
+                <label for="idGol">Deficiência Visual</label> 
+                <br> 
+                <input type="checkbox" name="nmMarcas" id="idFordKa">
+                <label for="idFordKa">Paralisia Cerebral</label>
+                <br>
+                <input type="checkbox" name="nmMarcas" id="idGol">
+                <label for="idGol">Perturbação do Espectro Autista</label>   
+                <br>
+                <input type="checkbox" name="nmMarcas" id="idFerrari">
+                <label for="idGol">Perturbação do Foro Psicológico</label> 
+                <br>
+                <input type="checkbox" name="nmMarcas" id="idFordKa">
+                <label for="idFordKa">Perturbações de Aprendizagem</label>
+                <br>
+                <input type="checkbox" name="nmMarcas" id="idGol">
+                <label for="idGol">Atas Habilidades</label>   
+            </div>       
+
+            <div class="buttons">
+                <button type="submit">Salvar</button>
+                <button type="submit">Limpar</button>
+            </div>
+            
+        </fieldset>
+    </form>
+</body>
+</html>
